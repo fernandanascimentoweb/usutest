@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Laura Fernandes",
+      "telefone": "(21)9878-4545",
+      "email": "lfefe@test.com"
+    },
+    {
+      "id": "2",
+      "name": "Antonio da Silva",
+      "telefone": "(21)9800-2200",
+      "email": "antonio@test.com"
+    },
+    {
+      "id": "3",
+      "name": "Bianca Cruz",
+      "telefone": "(21)9028-4115",
+      "email": "biancass@test.com"
+    },
+    {
+      "id": "4",
+      "name": "Joice Pereira",
+      "telefone": "(21)9228-4305",
+      "email": "pereira@test.com"
+    },
+    {
+      "id": "5",
+      "name": "Luis Antonio Santos",
+      "telefone": "(21)9228-2225",
+      "email": "pereira@test.com"
+    },
+    {
+      "id": "6",
+      "name": "Bruno Samuel ",
+      "telefone": "(21)9008-4305",
+      "email": "psamuela@test.com"
+    },
+    {
+      "id": "7",
+      "name": "Maria do Carmo",
+      "telefone": "(21)95878-4705",
+      "email": "carmoa@test.com"
+    },
+    {
+      "id": "8",
+      "name": "Gilberto Ramos",
+      "telefone": "(21)95878-8888",
+      "email": "gilberto@test.com"
+    },
+    {
+      "id": "7c26",
+      "name": "marcos da silva",
+      "telefone": "(21)98770-1211",
+      "email": "afaaga@gmail.com"
+    }
+  ]
+}

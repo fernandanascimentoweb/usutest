@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #17191f;
+    flex-wrap: wrap;
+}
+
+.navbar h2  {
+    opacity: 1;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li {
+    display: block;
+    padding: 10px;
+}
+
+.new-btn {
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    opacity: 1;
+    transition: .2s;
+}
+
+.new-btn:hover {
+    background-color: #fff;
+    color: #17191f;
+}
+
+
+
+
+
+

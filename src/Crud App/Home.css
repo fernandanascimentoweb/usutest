@@ -1,0 +1,185 @@
+.table {
+    width: 100%;
+    height: 80px;
+    border-collapse: collapse;
+}
+
+.table-read{
+    width: 100%;
+    height: 80px;
+    border-collapse: collapse;
+}
+
+.table td, .table-read td {
+    vertical-align: middle;
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}   
+
+.table th, .table-read th {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #c5c5c5;
+}
+
+.bloco h2 {
+    padding-block: 30px;
+    text-align: center;
+}
+
+
+form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 30px;
+}
+
+.form-control label {
+    margin-block: 0.5rem;
+}
+
+.form-control input {
+    font-size: 20px;
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-create {
+    background-color: #696081;
+    color: #fff;
+    border: 1px solid #000;
+    opacity: 1;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-create:hover, .btn-create:hover, .btn-delete:hover {
+    opacity: .7;
+}
+
+.btn-delete i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn-delete {
+    background-color: rgb(156, 34, 34);
+    color: #fff;
+    margin-left: 10px;
+    border: 1px solid #000;
+    opacity: 1;
+    padding: 10px 10px;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.botao{
+    margin-top: 30px;
+}
+
+.item {
+    background-color: #19171f;
+    color: #fff;
+    border: 1px solid #000;
+    opacity: 1;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.item:hover {
+    opacity: .7;
+}
+
+.btn-pdf{
+    background-color: #19171f;
+    color: #fff;
+    border: 1px solid #000;
+    opacity: 1;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.search input {
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn-ordem {
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-ordem:hover{
+    background-color: #19171f;
+    color: #fff;
+}
+
+
+@media(max-width:768px) {
+    .resp{
+        overflow-x: auto;
+        width: 85vw;
+    }
+    .pesquisa h2 {
+        font-size: 16px;
+    }    
+    .btn-create, .btn-delete {
+        padding: 5px;
+    }
+    .but{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
+
